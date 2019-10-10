@@ -1,0 +1,28 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3009333, 2015-04-15T05:09:49-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: NarzissHeavy-Swirls by Hubert Jocham Type
+ * URL: http://www.myfonts.com/fonts/hubertjocham/narziss/heavy-swirls/
+ * Copyright: Copyright &#x00A9; 2008 Hubert Joacham. All Rights Reserved.
+ * Licensed pageviews: 10,000
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3009333
+ * 
+ * © 2015 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+/* @import url("//hello.myfonts.net/count/2deb35"); */
+
+  
+@font-face {font-family: 'NarzissHeavy-Swirls';src:url('webfonts/2DEB35_0_unhinted_0.woff2') format('woff2'),url('webfonts/2DEB35_0_unhinted_0.woff') format('woff'),url('webfonts/2DEB35_0_unhinted_0.ttf') format('truetype');}
+ 

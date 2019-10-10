@@ -1,0 +1,104 @@
+/* Rojo y Negro stylesheet, 2019 */
+
+@font-face {
+    font-family:NarzissHeavy-Swirls;
+    src: local('NarzissHeavySwirls'),
+         url(/fonts/NarzissSwirls/webfonts/2DEB3500.woff2) format(woff2),
+         url(/fonts/NarzissSwirls/webfonts/2DEB3500.woff) format(woff),
+         url(/fonts/NarzissSwirls/webfonts/2DEB3500.ttf) format(truetype),
+         url(/fonts/NarzissSwirls/webfonts/2DEB3500.eot?#iefix) format(embedded-opentype),
+         url(/fonts/NarzissSwirls/webfonts/2DEB3500.svg#wf) format(svg);
+
+    /* src:url(/fonts/NarzissSwirls/webfonts/2DEB3500.eot); */
+}
+
+@font-face {
+    font-family: 'GalanoClassicDEMOAlt-Regular';
+    src: url('webfonts/3A5247_0_0.eot');
+    src: url('webfonts/3A5247_0_0.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/3A5247_0_0.woff2') format('woff2'),
+         url('webfonts/3A5247_0_0.woff') format('woff'),
+         url('webfonts/3A5247_0_0.ttf') format('truetype');}
+
+@font-face {
+    font-family:narzisstextregular;
+    src:url(/fonts/Narziss_Text/webfonts/2DEB33_0_0.eot);
+    src:url(/fonts/Narziss_Text/webfonts/2DEB33_0_0.eot?#iefix) format(embedded-opetype),
+        url(/fonts/Narziss_Text/webfonts/2DEB33_0_0.woff2) format(woff2),
+        url(/fonts/Narziss_Text/webfonts/2DEB33_0_0.woff) format(woff),
+        url(/fonts/Narziss_Text/webfonts/2DEB33_0_0.ttf) format(truetype),
+        url(/fonts/Narziss_Text/webfonts/2DEB33_0_0.svg#wf) format(svg);
+}
+@font-face {
+    font-family:NarzissTextRegular-Italic;
+    src:url(/fonts/Narziss_Text/webfonts/2DEB33_1_0.eot);
+ src:url(/fonts/Narziss_Text/webfonts/2DEB33_1_0.eot?#iefix) format(embedded-opetype),
+     url(/fonts/Narziss_Text/webfonts/2DEB33_1_0.woff2) format(woff2),
+     url(/fonts/Narziss_Text/webfonts/2DEB33_1_0.woff) format(woff),
+     url(/fonts/Narziss_Text/webfonts/2DEB33_1_0.ttf) format(truetype),
+     url(/fonts/Narziss_Text/webfonts/2DEB33_1_0.svg#wf) format(svg);
+}
+@font-face {
+    font-family:NarzissTextMedium;
+    src:url(/fonts/Narziss_Text/webfonts/2DEB33_2_0.eot);
+    src:url(/fonts/Narziss_Text/webfonts/2DEB33_2_0.eot?#iefix) format(embedded-opetype),
+        url(/fonts/Narziss_Text/webfonts/2DEB33_2_0.woff2) format(woff2),
+        url(/fonts/Narziss_Text/webfonts/2DEB33_2_0.woff) format(woff),
+        url(/fonts/Narziss_Text/webfonts/2DEB33_2_0.ttf) format(truetype),
+        url(/fonts/Narziss_Text/webfonts/2DEB33_2_0.svg#wf) format(svg);
+}
+@font-face {
+    font-family:NarzissTextSemibold;
+    src:url(/fonts/Narziss_Text/webfonts/2DEB33_3_0.eot);
+    src:url(/fonts/Narziss_Text/webfonts/2DEB33_3_0.eot?#iefix) format(embedded-opetype),
+        url(/fonts/Narziss_Text/webfonts/2DEB33_3_0.woff2) format(woff2),
+        url(/fonts/Narziss_Text/webfonts/2DEB33_3_0.woff) format(woff),
+        url(/fonts/Narziss_Text/webfonts/2DEB33_3_0.ttf) format(truetype),
+        url(/fonts/Narziss_Text/webfonts/2DEB33_3_0.svg#wf) format(svg);
+}
+
+/* RyN Brand name and wordmark */
+.brand-name, .brand-heading {
+    text-align:center;
+    font-family:NarzissHeavy-Swirls !important;
+    /* font-family:NarzissTextRegular-Italic; */
+    font-weight:normal;
+    font-style:normal;
+    font-size:6em;
+    line-height:1em;
+    padding-bottom:0;
+    margin-top:0;
+    margin-bottom:0;
+}
+.brand-name:focus,
+.brand-name:hover,
+.brand-name:active {
+    mix-blend-mode:color-dodge;
+    mix-blend-mode:screen;
+    opacity:0.6;
+}
+.brand-name:focus a,
+.brand-name:hover a,
+.brand-name:active a {
+    text-decoration:none;
+}
+.brand-name {
+    text-decoration:none;
+}
+.brand-name a :or {
+    focus:;
+    hover:;
+    active:;
+}
+.brand-motto {
+    text-align:center;
+    border-top:double #bfb8af;
+    border-bottom:double #bfb8af;
+    border-left:6px solid transparent;
+    border-right:6px solid transparent;
+    padding:0;
+    margin:0 0 0.5em 0;
+}
+h1.brand-motto {
+    font-size:2rem;
+}
